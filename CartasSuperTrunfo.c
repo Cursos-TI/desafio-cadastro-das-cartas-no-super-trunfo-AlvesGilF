@@ -7,6 +7,36 @@
 //Teste larissa
 
 int main() {
+
+    // Estrutura que representa uma cidade.
+    char cidade[50]; 
+    char nome[50];
+    int populacao;
+    float area;
+    float pib;
+    int pontosturisticos;
+
+    // Função para cadastrar uma cidade
+    printf("Digite o Codigo de Cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("Digite o nome da Cidade: \n");
+    scanf("%s", &nome);
+
+    printf("Digite a quantidade da população da cidade: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a area: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turisticos: \n");
+    scanf("%d", &pontosturisticos);
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
