@@ -37,6 +37,7 @@ int main() {
     printf("\n");
 
     // Exibição dos Dados das Cartas:
+    printf("\n---------------------------------------------\n");
     printf("Carta: %s%02d\n", estado, numerodacidade);
     printf("População: %d pessoas \n", populacao);
     printf("Area: %.2f km²\n", area);
